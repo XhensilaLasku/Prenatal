@@ -1,0 +1,64 @@
+#heartimg{
+    position:absolute;
+    left:120px;
+    bottom:20px;
+}
+#logo{ position:absolute;}
+#logofooter{ position:absolute;}
+#banner{ position:absolute;}
+#breadcrumb{ position:absolute;}
+#cards{ position:absolute;}
+#icon{ position:absolute;}
+#iconlink{position:absolute;}
+#search{ position:absolute;}
+#letters{ position:relative;}
+#heartfooter{position:relative;}
+/* #nav-content{position: absolute;} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+    #heartimg {top: 4px;
+               left:5px;}
+    #letters{top:3px;}
+    #breadcrumb{bottom:515px}
+    #logofooter{ left:165px}
+    #heartfooter{right:95px;
+                 bottom:4px}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 640px) {
+    #heartimg {top: 49px;
+               left:56px;}
+    #letters{top:10px;}
+    #search{left:180px}
+  }
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        #heartimg {top: 89px;
+               left:57px;}
+        #letters{top:10px;}
+        #logo{bottom:-30px}
+        #search{bottom:20px;
+                left:360px}
+        
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #heartimg {top: 89px;
+               left:121px;}
+    /* #logo{top:0px;
+        right:1000px;} */
+    #letters{top:10px;}
+    #logo{bottom:-10px}
+    #search{bottom:-20px;
+            left:40px}
+    #icon{bottom:20px;
+          right:50px}
+    #iconlink{right:140px}
+    #cards{right:20px}
+    #breadcrumb{bottom:515px}
+    #heartfooter{right:94px;
+                 bottom:4px}
+} 
+
